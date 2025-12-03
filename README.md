@@ -4,6 +4,8 @@ A minimal Model Context Protocol (MCP) server demonstrating tools, resources, an
 
 Built with [Smithery SDK](https://smithery.ai/docs)
 
+[![smithery badge](https://smithery.ai/badge/@arjunkmrm/agentmail-smithery-test)](https://smithery.ai/server/@arjunkmrm/agentmail-smithery-test)
+
 ## Prerequisites
 
 - **Smithery API key**: Get yours at [smithery.ai/account/api-keys](https://smithery.ai/account/api-keys)
