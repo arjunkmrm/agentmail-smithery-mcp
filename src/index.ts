@@ -15,7 +15,7 @@ export default function createServer({ config }: { config: z.infer<typeof config
     const client = new AgentMailClient({ apiKey: config.apiKey })
     const toolkit = new AgentMailToolkit(client)
 
-    for (const tool of toolkit.getTools(config.tools)) server.registerTool(tool.name, tool, tool.cb)
+    for (const tool of toolkit.getTools(config.tools)) server.registerTool(tool.name, tool, tool.callback)
 
     return server.server
 }
