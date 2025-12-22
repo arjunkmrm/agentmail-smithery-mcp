@@ -5,8 +5,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import { z } from 'zod'
 
 export const configSchema = z.object({
-    apiKey: z.string().describe('AgentMail API key'),
-    tools: z.array(z.string()).optional().describe('Tools to enable'),
+    apiKey: z.string().describe('Your API key from the [AgentMail Console](https://console.agentmail.to).'),
 })
 
 export default function createServer({ config }: { config: z.infer<typeof configSchema> }) {
@@ -15,7 +14,7 @@ export default function createServer({ config }: { config: z.infer<typeof config
     const client = new AgentMailClient({ apiKey: config.apiKey })
     const toolkit = new AgentMailToolkit(client)
 
-    for (const tool of toolkit.getTools(config.tools)) server.registerTool(tool.name, tool, tool.callback)
+    for (const tool of toolkit.getTools()) server.registerTool(tool.name, tool, tool.callback)
 
     return server.server
 }
