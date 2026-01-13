@@ -1,5 +1,5 @@
 import { AgentMailClient } from 'agentmail'
-import { AgentMailToolkit } from 'agentmail-toolkit/mcp'
+import { AgentMailToolkit } from 'agentmail-toolkit-test/mcp'
 
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import { z } from 'zod'
