@@ -11,24 +11,12 @@ importers:
       '@modelcontextprotocol/sdk':
         specifier: ^1.24.1
         version: 1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13)
-      '@smithery/sdk':
-        specifier: ^4.0.1
-        version: 4.0.1(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))(zod@4.1.13)
       agentmail:
         specifier: ^0.1.11
         version: 0.1.11
       agentmail-toolkit:
         specifier: ^0.1.45
         version: 0.1.45(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))
-      chalk:
-        specifier: ^5.6.2
-        version: 5.6.2
-      cors:
-        specifier: ^2.8.5
-        version: 2.8.5
-      express:
-        specifier: ^5.2.1
-        version: 5.2.1
       zod:
         specifier: ^4.1.13
         version: 4.1.13
@@ -563,12 +551,6 @@ packages:
     hasBin: true
     peerDependencies:
       zod: ^3.20.0 || ^4
-
-  '@smithery/sdk@4.0.1':
-    resolution: {integrity: sha512-u5lZYSzXLP72AJuOro4WLfcmn9X8exE75zcl9CbUb5Ydi/uIiMUr3vu8qzZ6/hXYI51wpiclQ8J4OYEKKOtYGQ==}
-    peerDependencies:
-      '@modelcontextprotocol/sdk': ^1.25.1
-      zod: ^4
 
   '@speed-highlight/core@1.2.14':
     resolution: {integrity: sha512-G4ewlBNhUtlLvrJTb88d2mdy2KRijzs4UhnlrOSRT4bmjh/IqNElZa3zkrZ+TC47TwtlDWzVLFADljF1Ijp5hA==}
@@ -2168,11 +2150,6 @@ snapshots:
       - hono
       - supports-color
       - utf-8-validate
-
-  '@smithery/sdk@4.0.1(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))(zod@4.1.13)':
-    dependencies:
-      '@modelcontextprotocol/sdk': 1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13)
-      zod: 4.1.13
 
   '@speed-highlight/core@1.2.14': {}
 
