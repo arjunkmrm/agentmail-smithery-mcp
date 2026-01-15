@@ -19,7 +19,7 @@
         "zod": "^4.1.13"
     },
     "devDependencies": {
-        "@smithery/cli": "^3.1.4",
+        "@smithery/cli": "^3.1.6",
         "prettier": "3.7.4"
     }
 }

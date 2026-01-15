@@ -34,8 +34,8 @@ importers:
         version: 4.1.13
     devDependencies:
       '@smithery/cli':
-        specifier: ^3.1.4
-        version: 3.1.4(@cfworker/json-schema@4.1.1)(@types/node@22.19.2)(hono@4.11.1)(zod@4.1.13)
+        specifier: ^3.1.6
+        version: 3.1.6(@cfworker/json-schema@4.1.1)(@types/node@22.19.2)(hono@4.11.1)(zod@4.1.13)
       prettier:
         specifier: 3.7.4
         version: 3.7.4
@@ -557,8 +557,8 @@ packages:
   '@smithery/api@0.11.0':
     resolution: {integrity: sha512-RXevUGFT4AINqKn0uLlg4eRX58nmuVjAbbC64w8TzVBCj3WKQh9OEz5LLbCd4rCMzrbluM5do+Z37j+2PuME1A==}
 
-  '@smithery/cli@3.1.4':
-    resolution: {integrity: sha512-pLqLXUvHWzP1zXfJ9JKCpaS09dXzdtWP6Ta7DDHQE8R19c6yXU7+6NoCVPR064jNxkEZ0V97CUEx4BbdcGXZ5Q==}
+  '@smithery/cli@3.1.6':
+    resolution: {integrity: sha512-S6pa75uTVvwiQxKIxunObQTjXQESFTaXcLxy6r+iJ8ZQYqba9dDwUpWfWzbjwyRS/Zsx1juKL3fyb6DUpUginQ==}
     engines: {node: '>=20.0.0'}
     hasBin: true
     peerDependencies:
@@ -2133,7 +2133,7 @@ snapshots:
 
   '@smithery/api@0.11.0': {}
 
-  '@smithery/cli@3.1.4(@cfworker/json-schema@4.1.1)(@types/node@22.19.2)(hono@4.11.1)(zod@4.1.13)':
+  '@smithery/cli@3.1.6(@cfworker/json-schema@4.1.1)(@types/node@22.19.2)(hono@4.11.1)(zod@4.1.13)':
     dependencies:
       '@anthropic-ai/mcpb': 1.2.0
       '@modelcontextprotocol/sdk': 1.25.1(@cfworker/json-schema@4.1.1)(hono@4.11.1)(zod@4.1.13)
